@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shishram Shopping</title>
 
+<style>
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f5f5;
+  color:#222;
+}
+header{
+  background:#111827;
+  color:white;
+  text-align:center;
+  padding:25px 10px;
+}
+header h1{margin:0 0 8px;}
+header p{margin:0;color:#ddd;}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+h2{text-align:center;}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:18px;
+}
+.card{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 2px 8px #ccc;
+  text-align:center;
+}
+.card h3{margin-top:5px;}
+.card p{color:#666;}
+
+.btn{
+  display:block;
+  margin:10px 0;
+  padding:12px;
+  border-radius:8px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.amazon{background:#ff9900;}
+.flipkart{background:#2874f0;}
+.meesho{background:#e91e63;}
+
+footer{
+  margin-top:30px;
+  background:#111827;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Shishram Shopping</h1>
+<p>Best Products • Best Deals • Easy Shopping</p>
+</header>
+
+<div class="container">
+
+<h2>🛍️ Shop From Your Favourite Store</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>Amazon</h3>
+<p>Amazon ke best products aur deals dekhein.</p>
+<a class="btn amazon" href="#" target="_blank">Shop on Amazon</a>
+</div>
+
+<div class="card">
+<h3>Flipkart</h3>
+<p>Flipkart ke popular products aur offers dekhein.</p>
+<a class="btn flipkart" href="#" target="_blank">Shop on Flipkart</a>
+</div>
+
+<div class="card">
+<h3>Meesho</h3>
+<p>Meesho ke affordable products dekhein.</p>
+<a class="btn meesho" href="#" target="_blank">Shop on Meesho</a>
+</div>
+
+</div>
+</div>
+
+<footer>
+<p>© 2026 Shishram Shopping</p>
+<p>Affiliate Partner Website</p>
+</footer>
+
+</body>
+</html>
